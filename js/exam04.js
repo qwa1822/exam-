@@ -21,6 +21,14 @@ new Promise((resolve,reject)=>{
   
 })
 
+// executor 함수  인자중 reject를 실행하면 rejected(거부) 상태가 됩니다.
+
 new Promise((resolve,reject)=>{
   reject();  //rejected
 })
+
+
+/*
+
+p라는 프로미스 객체는 1000ms 후에 fulfilled 됩니다.
+*/
